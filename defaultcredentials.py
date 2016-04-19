@@ -1,3 +1,6 @@
+#!/usr/bin/python
+ # -*- coding: utf-8 -*-
+
 data = \
 '''3COM ,CoreBuilder ,7000/6000/3500/2500 ,Telnet ,debug ,synnet ,  , 
 3COM ,CoreBuilder ,7000/6000/3500/2500 ,Telnet ,tech ,tech ,  , 
@@ -7,7 +10,7 @@ data = \
 3COM ,LinkSwitch ,2000/2700 ,Telnet ,tech ,tech ,  , 
 3COM ,NetBuilder ,  ,SNMP ,  ,ILMI ,snmp-read , 
 3COM ,Netbuilder ,  ,Multi ,admin ,(none) ,Admin , 
-3COM ,Office Connect ISDN Routers ,5×0 ,Telnet ,n/a ,PASSWORD ,Admin , 
+3COM ,Office Connect ISDN Routers ,5Ã—0 ,Telnet ,n/a ,PASSWORD ,Admin , 
 3COM ,SuperStack II Switch ,2200 ,Telnet ,debug ,synnet ,  , 
 3COM ,SuperStack II Switch ,2700 ,Telnet ,tech ,tech ,  , 
 3COM ,OfficeConnect 812 ADSL ,  ,Multi ,adminttd ,adminttd ,Admin , 
@@ -41,7 +44,7 @@ data = \
 3com ,3c16405 ,  ,Multi ,n/a ,(none) ,Admin , 
 3com ,3c16405 ,  ,Console ,Administrator ,(none) ,Admin , 
 3com ,Switch ,3300XM ,Multi ,admin ,admin ,Admin , 
-3com ,SS III Switch ,4xxx (4900 – sure) ,Telnet ,recovery ,recovery ,resets_all_to_default ,u need to power offunit.tbl_
+3com ,SS III Switch ,4xxx (4900 â€“ sure) ,Telnet ,recovery ,recovery ,resets_all_to_default ,u need to power offunit.tbl_
 3com ,OfficeConnect Wireless 11g ,  ,HTTP ,(none) ,admin ,Admin , 
 3COM ,Netbuilder ,  ,HTTP ,Root ,(none) ,Admin ,http://10.1.0.1
 3COM ,3C16405 ,  ,Multi ,admin ,(none) ,Admin , 
@@ -54,7 +57,7 @@ data = \
 3COM ,3c16405 ,  ,Console ,Administrator ,(none) ,Admin , 
 3COM ,CellPlex ,7000 ,Telnet ,tech ,(none) ,Admin , 
 3COM ,Switch ,3300XM ,Multi ,admin ,admin ,Admin , 
-3COM ,SS III Switch ,4xxx (4900 – sure) ,Telnet ,recovery ,recovery ,resets_all_to_default ,u need to power off unit. tbl_
+3COM ,SS III Switch ,4xxx (4900 â€“ sure) ,Telnet ,recovery ,recovery ,resets_all_to_default ,u need to power off unit. tbl_
 3COM ,OfficeConnect Wireless ,  ,HTTP ,(none) ,admin ,Admin , 
 3COM ,11g Cable/DSL Gateway ,  ,  ,  ,  ,  , 
 3COM ,3CRADSL72 ,1.2 ,Multi ,(none) ,1234admin ,Admin ,snmp open by default with
@@ -65,7 +68,7 @@ data = \
 3COM ,officeconnect ,  ,Multi ,n/a ,(none) ,Admin , 
 3COM ,Internet Firewall ,3C16770 ,HTTP ,admin ,password ,Admin , 
 3COM ,superstack II Netbuilder ,11.1 ,Multi ,n/a ,(none) ,Admin , 
-3COM ,Office Connect ISDN Routers ,5×0 ,Telnet? ,n/a ,PASSWORD ,Admin , 
+3COM ,Office Connect ISDN Routers ,5Ã—0 ,Telnet? ,n/a ,PASSWORD ,Admin , 
 3com ,812 ,  ,HTTP ,Administrator ,admin ,Admin , 
 3COM ,CoreBuilder ,7000/6000/3500/2500 ,Telnet ,n/a ,admin ,Admin , 
 3COM ,CoreBuilder ,7000/6000/3500/2500 ,Telnet ,n/a ,(none) ,Admin , 
@@ -164,7 +167,7 @@ Applied Innovations ,AIscout ,  ,Multi ,scout ,scout ,supervisor ,
 Areca ,RAID controllers ,  ,Console ,admin ,0 ,Admin , 
 Areca ,RAID controllers ,Any ,  ,admin ,0 ,Administrator ,http://ArecaIP:81
 Arescom ,modem/router ,10XX ,Telnet ,n/a ,atc123 ,Admin , 
-ARtem ,ComPoint – CPD-XT-b ,CPD-XT-b ,Telnet ,(none) ,admin ,Admin , 
+ARtem ,ComPoint â€“ CPD-XT-b ,CPD-XT-b ,Telnet ,(none) ,admin ,Admin , 
 Asante ,IntraSwitch ,  ,multi ,IntraSwitch ,Asante ,Admin , 
 Asante ,IntraStack ,  ,multi ,IntraStack ,Asante ,Admin , 
 Asante ,FM2008 ,  ,Telnet ,superuser ,(none) ,Admin , 
@@ -220,7 +223,7 @@ Axis ,NETCAM ,200/240 ,  ,root ,pass ,  ,
 AXUS ,AXUS YOTTA ,  ,Multi ,n/a ,0 ,Admin ,Storage DAS SATA to SCSI/FC
 aztech ,DSL-600E ,  ,HTTP ,admin ,admin ,Admin , 
 Aztecj ,DSL 600EU ,62.53.2 ,Telnet ,root ,admin ,Admin , 
-Aztecj ,DSL 600EU ,62.53.2 ,HTTP ,isp ,isp ,Admin ,backdoor – not in all f/w versions
+Aztecj ,DSL 600EU ,62.53.2 ,HTTP ,isp ,isp ,Admin ,backdoor â€“ not in all f/w versions
 Bausch Datacom ,Proxima PRI ADSL PSTN ,  ,Multi ,admin ,epicrouter ,Admin , 
 Bay Networks ,Switch ,350T ,Telnet ,n/a ,NetICs ,Admin , 
 Bay Networks ,SuperStack II ,  ,Telnet ,security ,security ,Admin , 
@@ -247,7 +250,7 @@ BMC ,Patrol ,6 ,Multi ,patrol ,patrol ,User ,
 BMC Software ,Patrol ,all ,BMC unique ,Administrator ,the same all over ,Admin ,this default user normally for ALL
 Bosch ,NWC-0455 Dinion IP Cameras ,  ,  ,service ,service ,admin ,may work in other bosch
 Bosch ,NWC-0455 Dinion IP Cameras ,  ,  ,user ,user ,regular user , 
-Bosch ,NWC-0455 Dinion IP Cameras ,  ,  ,live ,live ,monitor – low priv , 
+Bosch ,NWC-0455 Dinion IP Cameras ,  ,  ,live ,live ,monitor â€“ low priv , 
 Breezecom ,Breezecom Adapters ,3.x ,  ,n/a ,Master ,Admin , 
 Breezecom ,Breezecom Adapters ,2.x ,  ,n/a ,laflaf ,Admin , 
 Breezecom ,Breezecom Adapters ,4.4.x ,Console ,n/a ,Helpdesk ,Admin , 
@@ -279,7 +282,7 @@ Cabletron ,Netgear modem/router ,  ,  ,netman ,(none) ,Admin ,
 canyon ,router ,  ,Multi ,Administrator ,admin ,Admin , 
 Cayman ,Cayman DSL ,  ,  ,n/a ,(none) ,Admin , 
 Celerity ,Mediator ,Multi ,Multi ,mediator ,mediator ,User , 
-Celerity ,Mediator ,  ,Multi ,root ,Mau’dib ,Admin ,Assumption: the password is
+Celerity ,Mediator ,  ,Multi ,root ,Mauâ€™dib ,Admin ,Assumption: the password is
 Cellit ,CCPro ,  ,Multi ,cellit ,cellit ,Admin , 
 Checkpoint ,SecurePlatform ,NG FP3 ,Console ,admin ,admin ,Admin , 
 CipherTrust ,IronMail ,Any ,Multi ,admin ,password ,Admin , 
@@ -317,7 +320,7 @@ Cisco ,WSLE ,all ,all ,wlseuser ,wlsepassword ,User ,see also enable passwd
 Cisco ,WLSE ,all ,Console ,enable ,(none) ,enable ,use with wlseuser
 Cisco ,Cisco Wireless Location Appliance ,2700 Series prior to 2.1.34.0 ,Multi ,root ,password ,Admin ,Added by DPL admin. From
 Cisco ,MeetingPlace ,  ,Console ,technician ,2 + last 4 of Audio ,Admin ,Used for Audio Server or
-Cisco ,ONS ,all ,Multi ,CISCO15 ,otbu+1 ,Admin ,Optical Network System – http/TL1
+Cisco ,ONS ,all ,Multi ,CISCO15 ,otbu+1 ,Admin ,Optical Network System â€“ http/TL1
 cisco ,2600 router ,  ,Telnet ,cisco ,(none) ,Admin , 
 Cisco ,PIX ,6.3 ,Console ,enable ,(none) ,Admin , 
 Cisco-Arrowpoint ,Arrowpoint ,  ,  ,admin ,system ,Admin , 
@@ -475,7 +478,7 @@ EverFocus ,PowerPlex ,EDR1600 ,Multi ,admin ,admin ,Admin ,
 EverFocus ,PowerPlex ,EDR1600 ,Multi ,supervisor ,supervisor ,Admin , 
 EverFocus ,PowerPlex ,EDR1600 ,Multi ,operator ,operator ,Admin , 
 Exabyte ,Magnum20 ,  ,FTP ,anonymous ,Exabyte ,Admin , 
-Extended Systems ,Print Servers ,– ,  ,admin ,extendnet ,Admin , 
+Extended Systems ,Print Servers ,â€“ ,  ,admin ,extendnet ,Admin , 
 Extreme Networks ,All Switches ,  ,Multi ,admin ,(none) ,Admin ,Submitted by Eastman Rivai
 F5 ,Bigip 540 ,  ,Multi ,root ,default ,Admin , 
 F5-Networks ,BIGIP ,  ,Multi ,n/a ,(none) ,Admin , 
@@ -587,7 +590,7 @@ IBM ,8239 Token Ring HUB ,2.5 ,Console ,n/a ,R1QTPS ,Utility Program ,submitted 
 IBM ,8224 HUB ,  ,Multi ,vt100 ,public ,Admin ,Swap MAC address chip from
 IBM ,3534 F08 Fibre Switch ,  ,Multi ,admin ,password ,Admin , 
 IBM ,switch ,8275-217 ,Telnet ,admin ,(none) ,Admin , 
-IBM ,Directory – Web ,5.1 ,HTTP ,superadmin ,secret ,Admin ,Documented in Web Administration Guide
+IBM ,Directory â€“ Web ,5.1 ,HTTP ,superadmin ,secret ,Admin ,Documented in Web Administration Guide
 IBM ,Hardware Management ,3 ,ssh ,hscroot ,abc123 ,Admin , 
 IBM ,3583 Tape Library ,  ,HTTP ,admin ,secure ,Admin , 
 IBM ,Infoprint 6700 ,http://www.phenoelit. ,Multi ,root ,(none) ,Admin ,Also works for older 4400 printers
@@ -633,7 +636,7 @@ JAHT ,adsl router ,AR41/2A ,HTTP ,admin ,epicrouter ,Admin ,
 JD Edwards ,WorldVision/OneWorld ,All(?) ,Console ,JDE ,JDE ,Admin/SECOFR , 
 JDE ,WorldVision/OneWorld ,  ,Multi ,PRODDTA ,PRODDTA ,Admin ,Owner of database tables and
 JDS ,Hydra 3000 ,r2.02 ,Console ,hydrasna ,(none) ,Admin ,www.hydrasystems.com/
-Juniper ,ISG2000 ,  ,Multi ,netscreen ,netscreen ,Admin ,Just a note – netscreen is now made by Juniper – otherwise no change
+Juniper ,ISG2000 ,  ,Multi ,netscreen ,netscreen ,Admin ,Just a note â€“ netscreen is now made by Juniper â€“ otherwise no change
 Juniper ,Netscreen ,3.2 ,Console ,serial# ,serial# ,Admin ,Resets to factory settings
 Kalatel ,Calibur DSR-2000e ,  ,Multi ,n/a ,3477 ,Admin , 
 Kalatel ,Calibur DSR-2000e ,  ,on-screen ,n/a ,8111 ,restore factory , 
@@ -651,7 +654,7 @@ Kyocera ,EcoLink ,7.2 ,HTTP ,n/a ,PASSWORD ,Admin ,
 Kyocera ,Telnet Server IB-20/21 ,  ,multi ,root ,root ,Admin , 
 Kyocera ,Intermate LAN FS Pro 10/100 ,K82_0371 ,HTTP ,admin ,admin ,Admin , 
 Kyocera ,Printer ,any ,  ,(none) ,admin00 ,  , 
-Kyocera ,FS-2020D ,  ,  ,– ,admin00 ,Admin , 
+Kyocera ,FS-2020D ,  ,  ,â€“ ,admin00 ,Admin , 
 Kyocera Printers ,2020D ,  ,  ,n/a ,admin00 ,Admin , 
 LANCOM ,IL11 ,  ,Multi ,n/a ,(none) ,Admin , 
 Lanier ,Digital Imager ,LD124c ,HTTP ,admin ,(none) ,Admin , 
@@ -686,7 +689,7 @@ Linksys ,Linksys DSL ,  ,  ,n/a ,admin ,Admin ,
 Linksys ,WAP54G ,2 ,HTTP ,(none) ,admin ,Admin , 
 Linksys ,WRT54G ,All Revisions ,HTTP ,(none) ,admin ,Admin , 
 Linksys ,model WRT54GC compact ,  ,Multi ,(none) ,admin ,Admin , 
-Linksys ,AG 241 – ADSL2 Gateway ,  ,Multi ,admin ,admin ,Admin , 
+Linksys ,AG 241 â€“ ADSL2 Gateway ,  ,Multi ,admin ,admin ,Admin , 
 Linksys ,Comcast ,Comcast-supplied ,HTTP ,comcast ,1234 ,diagnostics ,192.168.0.1/docsisdevicestatus.asp
 Linksys ,WAG54GS ,  ,Multi ,admin ,admin ,Admin , 
 Linksys ,rv082 ,  ,Multi ,admin ,(none) ,Admin , 
@@ -858,7 +861,7 @@ NGSec ,NGSecureWeb ,  ,HTTP ,admin ,asd ,Admin ,
 Niksun ,NetDetector ,  ,Multi ,vcr ,NetVCR ,Admin ,su after login with empty password
 Nimble ,PC BIOS ,  ,Console ,n/a ,xdfk9874t3 ,Admin , 
 Nimble ,BIOS ,  ,Console ,n/a ,xdfk9874t3 ,Admin , 
-Nokia ,DSL Router M1122 ,1.1 – 1.2 ,Multi ,m1122 ,m1122 ,User , 
+Nokia ,DSL Router M1122 ,1.1 â€“ 1.2 ,Multi ,m1122 ,m1122 ,User , 
 Nokia ,MW1122 ,  ,Multi ,telecom ,telecom ,Admin ,Only in New Zealand.
 NOKIA ,7360 ,  ,Multi ,(none) ,9999 ,Admin , 
 Nokia ,M1921 ,  ,Telnet ,(none) ,nokai ,Admin , 
@@ -999,7 +1002,7 @@ Ricoh ,Ricoh ,Aficio MP 3500 1.0 ,Multi ,admin ,(none) ,Admin ,Nabil OUCHN
 Ricoh ,Aficio 551 ,  ,Multi ,(none) ,sysadm ,Admin , 
 Ricoh ,Aficio 1018d ,  ,HTTP ,n/a ,sysadm ,Admin , 
 Ricoh ,Aficio 1013F ,  ,HTTP ,n/a ,sysadm ,Admin , 
-Ricoh ,Aficio MP 161L ,( Printer MP 161L ) ,  ,(none – Not required) ,sysadm ,Administration , 
+Ricoh ,Aficio MP 161L ,( Printer MP 161L ) ,  ,(none â€“ Not required) ,sysadm ,Administration , 
 Ricoh ,Aficio ,2016 ,  ,(none) ,password ,all , 
 RM ,RM Connect ,  ,Multi ,setup ,changeme ,  , 
 RM ,RM Connect ,  ,Multi ,teacher ,password ,  , 
@@ -1026,7 +1029,7 @@ sagem ,fast 1400w ,  ,Multi ,root ,1234 ,Admin ,
 SAGEM ,FAST 1400 ,  ,Multi ,admin ,epicrouter ,Admin , 
 Sagem ,F@st 1200 (Fast 1200) ,  ,Telnet ,root ,1234 ,User ,root/1234
 Sagem ,Livebox ,  ,Multi ,admin ,admin ,Admin , 
-Sagem ,Fast 3504 v2 ,  ,  ,Menara ,Menara ,admin ,moroccan internet provider’s router
+Sagem ,Fast 3504 v2 ,  ,  ,Menara ,Menara ,admin ,moroccan internet providerâ€™s router
 samsung ,n620 ,  ,Multi ,n/a ,(none) ,Admin , 
 Samsung ,MagicLAN SWL-3500RG ,2.15 ,HTTP ,public ,public ,Admin ,def. WEP keys: 0123456789
 samsung ,modem/router ,aht-e300 ,Multi ,admin ,password ,Admin ,after reset
@@ -1222,7 +1225,7 @@ Wang ,Wang ,  ,Multi ,CSG ,SESAME ,Admin ,
 Watch guard ,firebox 1000 ,  ,Multi ,admin ,(none) ,Admin , 
 Watchguard ,SOHO and SOHO6 ,all versions ,FTP ,user ,pass ,Admin ,works only from the inside LAN
 Watchguard ,Firebox ,  ,  ,(blank) ,wg ,admin , 
-Weidmüeller ,IE-SW16-M ,  ,  ,admin ,detmond ,admin , 
+WeidmÃ¼eller ,IE-SW16-M ,  ,  ,admin ,detmond ,admin , 
 westell ,2200 ,  ,Multi ,admin ,password ,Admin , 
 Westell ,Versalink 327 ,  ,Multi ,admin ,(none) ,Admin , 
 Westell ,Wirespeed ,  ,Multi ,admin ,password ,Admin ,also try password: sysAdmin
@@ -1248,7 +1251,7 @@ xerox ,xerox ,  ,Multi ,n/a ,admin ,Admin ,
 Xerox ,Document Centre 425 ,  ,HTTP ,admin ,(none) ,Admin , 
 xerox ,work centre pro 35 ,  ,HTTP ,admin ,1111 ,Admin , 
 Xerox ,DocuCentre 425 ,  ,HTTP ,admin ,22222 ,Admin ,works for access panel 2
-Xerox ,Document Centre 405 ,– ,HTTP ,admin ,admin ,Admin , 
+Xerox ,Document Centre 405 ,â€“ ,HTTP ,admin ,admin ,Admin , 
 Xerox ,240a ,  ,HTTP ,admin ,x-admin ,Admin , 
 Xerox ,WorkCentre 7132 ,  ,Multi ,11111 ,x-admin ,Admin , 
 Xerox ,6204 ,  ,Multi ,n/a ,0 ,Admin , 
